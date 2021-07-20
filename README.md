@@ -7,6 +7,6 @@ ___
 ## How To
 
 * First download the TensorFlow C API from [this](https://www.tensorflow.org/install/lang_c) link. I used the windows CPU only library.
-* Extract the contents on a directory called TensorFlow, located on a directory Libraries inside your projects directory.
+* Extract the contents on a directory called `TensorFlow`, located on a directory `Libraries` inside your projects directory. For better understanding, take a look at the `INCLUDEPATH` and `LIBS` variables on the `TensorFlow-console-example.pro` file.
 * Clone this repo inside your project directory.
 * Open the file `TensorFlow-console-example.pro` with Qt Creator and build
