@@ -20,7 +20,7 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-#OPENCL2\Libraries\TensorFlow
+# $$PWD returns the project's path (the one you clone)
 INCLUDEPATH += $$PWD/../Libraries/TensorFlow/include
 LIBS += -L$$PWD/../Libraries/TensorFlow/lib
 LIBS += -ltensorflow
